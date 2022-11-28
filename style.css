@@ -7,3 +7,19 @@
 }
 
 /* Write CSS code below */
+
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px ;
+    height: 1000px;
+}
+
+.left-section{
+grid-column: 1;
+background-color: aqua;
+}
+
+.right-section{
+    grid-column: 1/span 2; 
+    background-color: brown;
+}
