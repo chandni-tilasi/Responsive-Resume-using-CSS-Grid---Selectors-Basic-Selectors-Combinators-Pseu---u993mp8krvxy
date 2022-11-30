@@ -21,6 +21,5 @@
 }
 .right-section{
     grid-column: 1/2 span;
-    width: 900px;
     background-color: aqua;
 }
